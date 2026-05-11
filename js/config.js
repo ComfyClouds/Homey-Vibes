@@ -17,7 +17,7 @@ const CONFIG = {
   STORE_NAME: 'Homey Vibes',
   STORE_TAGLINE: 'Wrapped in warmth, made for you.',
   STORE_EMAIL: 'iibow.v2@gmail.com',
-  WHATSAPP: '201097530461', // Egyptian number without +
+  WHATSAPP: '201558868380', // Egyptian number without +
 
   // ----------------------------------------------------------
   //  Announcement Bar Messages (rotating)
