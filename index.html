@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Homey Vibes — Wrapped in warmth, made for you</title>
-  <meta name="description" content="Homey Vibes — feminine home wear for every woman. Shop cozy PJs and Cashes in One Size and Big Size. Made in Egypt.">
+  <title>Homey Vibes | Cozy PJs & Cashes for Women — Shop Online Egypt</title>
+  <meta name="description" content="Shop Homey Vibes — Egypt's favourite feminine home wear brand. Soft PJs and Cashes in One Size (55–70kg) and Big Size (80–110kg). Cash on delivery all over Egypt. بيجامات وكاشات نسائية بالتوصيل لكل مصر.">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
@@ -120,6 +120,74 @@
       .newsletter-form { flex-direction: column; }
     }
   </style>
+
+  <!-- ═══ Schema.org Structured Data (Rich Results on Google) ══ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://homey-vibes.store/#organization",
+        "name": "Homey Vibes",
+        "url": "https://homey-vibes.store/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://homey-vibes.store/H-V_Logo.jpeg",
+          "width": 1080,
+          "height": 1080
+        },
+        "description": "Feminine home wear brand based in Egypt, specializing in soft PJs and Cashes for women in One Size and Big Size.",
+        "areaServed": { "@type": "Country", "name": "Egypt" },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "availableLanguage": ["Arabic", "English"]
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://homey-vibes.store/#website",
+        "url": "https://homey-vibes.store/",
+        "name": "Homey Vibes",
+        "description": "Egypt's cozy feminine home wear — PJs and Cashes in every size",
+        "publisher": { "@id": "https://homey-vibes.store/#organization" }
+      },
+      {
+        "@type": "Store",
+        "@id": "https://homey-vibes.store/#store",
+        "name": "Homey Vibes",
+        "url": "https://homey-vibes.store/",
+        "image": "https://homey-vibes.store/H-V_Logo.jpeg",
+        "description": "Shop cozy PJs and Cashes in One Size and Big Size. Made in Egypt. Cash on delivery.",
+        "priceRange": "EGP",
+        "currenciesAccepted": "EGP",
+        "paymentAccepted": "Cash on Delivery",
+        "areaServed": "Egypt"
+      },
+      {
+        "@type": "ItemList",
+        "name": "Homey Vibes Collections",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "PJs Collection",
+            "url": "https://homey-vibes.store/shop/?cat=PJs",
+            "description": "Soft pajama sets for women in One Size and Big Size"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Cashes Collection",
+            "url": "https://homey-vibes.store/shop/?cat=Cashes",
+            "description": "Effortless loungewear dresses in One Size and Big Size"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 
   <!-- ═══ SEO ═══════════════════════════════════════════════ -->
   <meta name="robots" content="index, follow">
